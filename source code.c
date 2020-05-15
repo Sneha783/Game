@@ -110,8 +110,6 @@ int condition(char (*p)[3])
 
 				if((p[j][i]==p[j][i+1]) && (p[j][i+1]==p[j][i+2]) && (p[j][i]==p[j][i+2]))//for row
 				{              
-				//	printf("yesp[%d][%d]=%c\n",j,i,p[j][i]);			
-				//	printf("p[j][i+1]=%c\n  p[j][i+2]=%c\n ",p[j][i+1],p[j][i+2]);
 					return 1;
 				} 
 
